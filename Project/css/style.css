@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Work+Sans:ital,wght@1,700&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+    color: #fff;
+    
+}
+body{
+    background-color: rgb(60, 100, 60);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+.vozvr_img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-left: 94%;
+    margin-top: 47%;
+    
+}
+
+
+
+
+
+
+/* header */
+.header{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    background: url(../img/bc.jpg) center center/cover no-repeat;
+}
+
+
+.header_h1{
+    position: absolute;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    /* обводка текста */
+    text-shadow: 1px 1px 1px black;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 300px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.avtor{
+    color: white;
+    position: absolute;
+    margin-top: 15px;
+    left: 50px;
+}
+ul{
+    margin-top: 35px;
+    margin-left: 180px;
+    position:  absolute;
+
+}
+
+
+
+li{
+    list-style-type: none; /*Убираем маркеры*/
+    display: inline;
+    text-shadow: 1px 1px 1px #000;
+
+    
+}
+li a{
+    text-decoration-line: none;
+}
+li a:hover{
+    color: aqua;
+}
+
+
+.izobr{
+    margin-left: 40px;
+}
+
+
+/* главная */
+.main{
+    padding-top: 30px;
+}
+
+.paragraph1{
+    height: 100%;
+}
+
+
+.main_text{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vertical_picture_left{
+    height: 600px;
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+.vertical_picture_right{
+    height: 600px;
+    width: 400px;
+    margin-right: 0;
+    float: right;
+    margin-left: 20px;
+}
+
+
+
+
+
+.horizontalimg{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #00af64;
+}
+
+.paragraph_text{
+    font-size: 30px;
+}
+
+
+
+/* footer */
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #987654;
+}
+
+.footer_h1{
+    font-size: 40px;
+    margin-left: 410px;
+}
+
+.istochniki{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+
+.footer a:hover{
+    color: aqua;
+}
+
+.footer_img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+
+.saintpLOGO{
+    margin-left: 25%;
+    position: absolute;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
